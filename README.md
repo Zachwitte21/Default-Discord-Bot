@@ -1,7 +1,4 @@
 # Default-Discord-Bot
-A Discord bot built with TypeScript for my webdevelopement class. 
-
-#Summary
 This is the default discord bot project. Use this project as a starting point for future discord bot developement. 
 
 #Getting Started
