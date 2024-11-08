@@ -1,4 +1,4 @@
-# 474-discord-bot
+# Default-Discord-Bot
 A Discord bot built with TypeScript for my webdevelopement class. 
 
 #Summary
