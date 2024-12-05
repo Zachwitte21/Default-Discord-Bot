@@ -1,6 +1,8 @@
-# 474-discord-bot
-A Discord bot built with TypeScript for my webdevelopement class. 
+# 474-Discord-Bot
+This is the default discord bot project. Use this project as a starting point for future discord bot developement. 
 
-# Run the discord bot
-npm run build
-npm run start
+#Getting Started
+1. Create a .env file and paste the official discord bot token in. DISCORD_TOKEN=[your_token_here]
+2. Install Node version 18
+3. npm run build
+4. npm run start
