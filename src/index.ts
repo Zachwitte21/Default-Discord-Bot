@@ -15,5 +15,8 @@ client.once('ready', () => {
 });
 
 //Connect to MongoDB
-mongoose.connect(process.env.MONGO_URI as string);
+console.log('MONGODB_URI', process.env.MONGODB_URI);
+mongoose.connect(process.env.MONGODB_URI as string)
+  .then(() => console.log('Connected to MongoDB'))
+  .catch((error) => console.error('MongoDB connection error:', error));
 client.login(process.env.DISCORD_TOKEN);
